@@ -1,0 +1,17 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Not:Bölerek sıralama yapacağız.
+
+[16,21,11] , [8,12,22] ikiye ayrılır 
+
+[16] , [21,11] ayrılır [8,12,22] sıralı olduğu için ayrılmaz.
+
+[16] , [11,21] sıralanır.Bunlar birleşerek;
+
+[11,16,21] oluşur diğer tarafta [8,12,22] var
+
+Bu ikisi de birleşerek;
+
+[8,11,12,16,21,22] oluşturur.
+
+Big-O gösterimi n.logn olur.
