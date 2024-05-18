@@ -1,0 +1,46 @@
+
+[22,27,16,2,18,6] - Insertion Sort
+
+1.Soru:
+
+໢·22 ile 27 karşılaştırılır.Doğru olduğu için işlem yapılmaz.
+[22,27,16,2,18,6]
+
+໢·27 ile 16 karşılaştırılır.16 daha küçük olduğu için yer değiştirilir ve 22 ile de 16 karşılaştırılır.Yine küçük olduğu için 16 en başa gelir.
+[16,22,27,2,18,6]
+
+໢·2 solundaki elemanlarla teker teker karşılaştırılır ve en küçük olduğu için en başa gelir.
+[2,16,22,27,18,6]
+
+໢·18 solundaki 27 ve 22'den küçük olduğu için onların soluna yazılır.
+[2,16,18,22,27,6]
+
+໢·6 27,22,18 ve 16'dan küçük olduğu için onların soluna yazılır.
+[2,6,16,18,22,27]
+
+2.Soru:
+
+n n-1 n-2 n-3 ........2  1 e kadar gidiyor toplamları (n.(n+1)/2) olur buradan n*2 olur cevap
+
+3.Soru:
+
+18 sayısı Average case kapsamına girer.
+
+
+
+
+
+Son Soru:
+
+[7,3,5,8,2,9,4,15,6] dizimiz
+
+໢· min 2 old. için 2 ile 7 yer değiştirir. [2,3,5,8,7,9,4,15,6]
+
+໢· min 3 yer değiştirmeye gerek yok
+[2,3,5,8,7,9,4,15,6]
+
+໢· min 4 old. için 4 ile 5 yer değiştirir.
+[2,3,4,8,7,9,5,15,6]
+
+໢· min 5 old. için 5 ile 8 yer değiştirir.
+[2,3,4,5,7,9,8,15,6]
